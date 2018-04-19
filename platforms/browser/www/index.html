@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Camara</title>
+        <link rel="stylesheet" type="text/css" href="css/camara.css" />
+    </head>
+    <body>
+        <h1 id='header'>Camera app</h1>
+        <div class='contenedor-botones'>
+          <button id='boton-sepia' class="boton-filtro">Sepia</button>
+          <button id='boton-negativo' class="boton-filtro">Negativo</button>
+          <button id='boton-byn' class="boton-filtro">Blanco/Negro</button>
+        </div>
+        <canvas id='encuadre'></canvas>
+        <div class='contenedor-botones'>
+          <button id='boton-camara' class="boton-foto">Tomar foto</button>
+          <button id='boton-galeria' class="boton-foto">Ir a Galería</button>
+        </div>
+
+        <script type="text/javascript" src="js/camara.js"></script>
+        <script type="text/javascript" src="js/fastclick.js"></script>
+        <script type="text/javascript" src="js/effects.js"></script>
+        <script type="text/javascript" src="js/hammer.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
